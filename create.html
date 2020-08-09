@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Task</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0"> 
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="create.css">
+</head>
+<body>
+	<h1>Create Your Task</h1>
+	<form method="post" action="">
+	<div id="Image">
+		<label for="myFileInput">Image : </label>
+		<input type="file" id="myFileInput" accept="image/*" required >	
+	</div>
+	<hr>
+	<div id="task_id">
+		<label for="id">Task Id :</label>
+		<input id="taskid" type="number" name="task_id" required>
+	</div>
+	<hr>
+	<div id="Edit">
+		<h2> Editing Details</h2>
+		<textarea name="Editing_Details" rows="10" cols="30"></textarea><br>
+	
+		<input id="submit" type="submit" name="submit" >
+		
+	</div>
+	</form>
+	<script type="text/javascript" src="create.js"></script>
+		
+</body>
+	
+</html>

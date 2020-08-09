@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	text-align: center;
+	background-color: #333;
+}
+
+#buttons{
+	display: flex;
+	justify-content: space-around;
+}
+
+.button{
+	width: max-content;
+	height: 2rem;
+
+
+}
+
+a{
+	background-color: #777;
+}
